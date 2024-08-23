@@ -12,8 +12,7 @@ class WorldClockTableViewCell: UITableViewCell {
     @IBOutlet weak var timeOffsetLabel: UILabel!
     @IBOutlet weak var timeZoneLabel: UILabel!
     @IBOutlet weak var timePeriodLabel: UILabel!
-    @IBOutlet weak var timeLabel: 
-        UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
     
     
     override func awakeFromNib() {

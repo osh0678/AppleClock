@@ -72,7 +72,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="timeLabel" destination="XF7-Ke-gNx" id="jyi-QZ-lKq"/>
-                                            <outlet property="timeOffsetLabel" destination="8CF-2B-Yg5" id="kJw-Ad-Rrl"/>
+                                            <outlet property="timeOffsetLabel" destination="RIa-xO-gtC" id="4b5-ad-Kuo"/>
                                             <outlet property="timePeriodLabel" destination="AJY-2Q-c6w" id="ZzB-o8-vWv"/>
                                             <outlet property="timeZoneLabel" destination="Tqj-EC-vCH" id="Ds1-6V-ieC"/>
                                         </connections>
