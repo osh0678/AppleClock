@@ -73,4 +73,10 @@ extension WorldClockViewController: UITableViewDataSource {
         }
     }
     
+    func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+        let target = list.remove(at: sourceIndexPath.row)
+        
+        list.insert(target, at: destinationIndexPath.row)
+        list.insert(target, at: destinationIndexPath.row)
+    }
 }
