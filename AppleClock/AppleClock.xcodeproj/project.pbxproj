@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4C08DBCF2C78A1EA0049752C /* TimeZone+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C08DBCE2C78A1EA0049752C /* TimeZone+Util.swift */; };
+		4C08DBD12C78AC8A0049752C /* CitySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C08DBD02C78AC8A0049752C /* CitySelectionViewController.swift */; };
+		4C08DBD32C78AE4C0049752C /* String+Korean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C08DBD22C78AE4C0049752C /* String+Korean.swift */; };
 		4C11173B2C6E1AD50014FFCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C11173A2C6E1AD50014FFCC /* AppDelegate.swift */; };
 		4C11173D2C6E1AD50014FFCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C11173C2C6E1AD50014FFCC /* SceneDelegate.swift */; };
 		4C1117422C6E1AD50014FFCC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4C1117412C6E1AD50014FFCC /* Base */; };
@@ -39,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		4C08DBCE2C78A1EA0049752C /* TimeZone+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeZone+Util.swift"; sourceTree = "<group>"; };
+		4C08DBD02C78AC8A0049752C /* CitySelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySelectionViewController.swift; sourceTree = "<group>"; };
+		4C08DBD22C78AE4C0049752C /* String+Korean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Korean.swift"; sourceTree = "<group>"; };
 		4C1117372C6E1AD50014FFCC /* AppleClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C11173A2C6E1AD50014FFCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C11173C2C6E1AD50014FFCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				4C08DBCE2C78A1EA0049752C /* TimeZone+Util.swift */,
+				4C08DBD22C78AE4C0049752C /* String+Korean.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 				4C11173C2C6E1AD50014FFCC /* SceneDelegate.swift */,
 				4C1117402C6E1AD50014FFCC /* Main.storyboard */,
 				4C11176A2C6E22380014FFCC /* WorldClockViewController.swift */,
+				4C08DBD02C78AC8A0049752C /* CitySelectionViewController.swift */,
 				4C1117432C6E1AD60014FFCC /* Assets.xcassets */,
 				4C1117452C6E1AD60014FFCC /* LaunchScreen.storyboard */,
 				4C1117482C6E1AD60014FFCC /* Info.plist */,
@@ -282,8 +288,10 @@
 			files = (
 				4C08DBCF2C78A1EA0049752C /* TimeZone+Util.swift in Sources */,
 				4C11176B2C6E22380014FFCC /* WorldClockViewController.swift in Sources */,
+				4C08DBD32C78AE4C0049752C /* String+Korean.swift in Sources */,
 				4C11173B2C6E1AD50014FFCC /* AppDelegate.swift in Sources */,
 				4C11173D2C6E1AD50014FFCC /* SceneDelegate.swift in Sources */,
+				4C08DBD12C78AC8A0049752C /* CitySelectionViewController.swift in Sources */,
 				4C11176E2C6E29E50014FFCC /* WorldClockTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
